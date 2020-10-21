@@ -1,0 +1,7 @@
+getgenv().farm = true
+getgenv().cd = 0.3 -- if ur npcs turn into godmode frequently, turn it up and re execute
+getgenv().maxrounds = 21
+getgenv().tween = true -- tp or no tp (tp better less bug)
+getgenv().fireclick = true -- if you wanna auto claim the scroll 
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/thdat205/Auto-Farm-WAR/main/Auto%20Farm%20WAR'))()
